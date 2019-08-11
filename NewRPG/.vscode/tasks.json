@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "NewRPG Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Mac",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"IOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"HTML5",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"Linux",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Shipping",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPG TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPG TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPG",
+				"TVOS",
+				"Test",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Linux",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Debug",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"DebugGame",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"NewRPGEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		},
+		{
+			"label": "NewRPGEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"NewRPGEditor",
+				"Mac",
+				"Development",
+				"/home/john/new_game/NewRPG/NewRPG.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/john/UnrealEngine"
+			}
+		}
+	]
+}

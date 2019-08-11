@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="NewRPGEditor">
+  <File Name="/home/john/new_game/NewRPG/NewRPG.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/john/new_game/NewRPG/Source/NewRPG.Target.cs" />
+    <File Name="/home/john/new_game/NewRPG/Source/NewRPGEditor.Target.cs" />
+    <VirtualDirectory Name="NewRPG">
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPG.Build.cs" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPG.cpp" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPG.h" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGCharacter.cpp" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGCharacter.h" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGGameMode.cpp" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGGameMode.h" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGPlayerController.cpp" />
+      <File Name="/home/john/new_game/NewRPG/Source/NewRPG/NewRPGPlayerController.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/john/new_game/NewRPG/Config/DefaultEditor.ini" />
+    <File Name="/home/john/new_game/NewRPG/Config/DefaultEditorPerProjectUserSettings.ini" />
+    <File Name="/home/john/new_game/NewRPG/Config/DefaultEngine.ini" />
+    <File Name="/home/john/new_game/NewRPG/Config/DefaultGame.ini" />
+    <File Name="/home/john/new_game/NewRPG/Config/DefaultInput.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/john/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Debug -project="/home/john/new_game/NewRPG/NewRPG.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Debug -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Debug -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean
+mono UnrealBuildTool.exe NewRPGEditor Linux Debug -project="/home/john/new_game/NewRPG/NewRPG.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/john/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux DebugGame -project="/home/john/new_game/NewRPG/NewRPG.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe NewRPGEditor Linux DebugGame -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux DebugGame -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean
+mono UnrealBuildTool.exe NewRPGEditor Linux DebugGame -project="/home/john/new_game/NewRPG/NewRPG.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/john/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Development -project="/home/john/new_game/NewRPG/NewRPG.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Development -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Development -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean
+mono UnrealBuildTool.exe NewRPGEditor Linux Development -project="/home/john/new_game/NewRPG/NewRPG.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/john/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Shipping -project="/home/john/new_game/NewRPG/NewRPG.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Shipping -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Shipping -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean
+mono UnrealBuildTool.exe NewRPGEditor Linux Shipping -project="/home/john/new_game/NewRPG/NewRPG.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/john/new_game/NewRPG/NewRPG.uproject&quot; -game" WorkingDirectory="/home/john/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/home/john/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Test -project="/home/john/new_game/NewRPG/NewRPG.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Test -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe NewRPGEditor Linux Test -project="/home/john/new_game/NewRPG/NewRPG.uproject" -clean
+mono UnrealBuildTool.exe NewRPGEditor Linux Test -project="/home/john/new_game/NewRPG/NewRPG.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

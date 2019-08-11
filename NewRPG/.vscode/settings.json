@@ -1,0 +1,7 @@
+{
+	"files.exclude": {
+		"/home/john/new_game/NewRPG/.vscode": true,
+		"/home/john/new_game/NewRPG/Content": true,
+		"/home/john/new_game/NewRPG/Intermediate": true
+	}
+}
