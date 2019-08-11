@@ -1,0 +1,2 @@
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\Definitions.NewRPG_4_22_3.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Source\NewRPG_4_22_3\NewRPG_4_22_3.h

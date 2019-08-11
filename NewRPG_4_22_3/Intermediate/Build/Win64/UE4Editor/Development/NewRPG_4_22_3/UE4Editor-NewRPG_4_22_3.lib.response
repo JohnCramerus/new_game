@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-NewRPG_4_22_3.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\NewRPG_4_22_3Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3Character.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3GameMode.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3.init.gen.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3Character.gen.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3GameMode.gen.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.gen.cpp.obj"
+"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\Default.rc2.res"
+/OUT:"C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\UE4Editor-NewRPG_4_22_3.lib"
+/INCLUDE:IMPLEMENT_MODULE_NewRPG_4_22_3

@@ -1,0 +1,15 @@
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Development\NewRPG_4_22_3\Definitions.NewRPG_4_22_3.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Source\NewRPG_4_22_3\NewRPG_4_22_3GameMode.h
+F:\Games\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\Games\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\Games\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+F:\Games\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Inc\NewRPG_4_22_3\NewRPG_4_22_3GameMode.generated.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Source\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Inc\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.generated.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Source\NewRPG_4_22_3\NewRPG_4_22_3Character.h
+F:\Games\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+F:\Games\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+F:\Games\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+F:\Games\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\surem\OneDrive\Documents\Unreal Projects\new_game\NewRPG_4_22_3\Intermediate\Build\Win64\UE4Editor\Inc\NewRPG_4_22_3\NewRPG_4_22_3Character.generated.h

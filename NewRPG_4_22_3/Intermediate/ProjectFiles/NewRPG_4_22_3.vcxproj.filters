@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NewRPG_4_22_3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{71B7E821-7F57-43F2-810A-D85F3CB2A366}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NewRPG_4_22_3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NewRPG_4_22_3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A88C43B4-8B91-4B2C-A761-C3E55DBC5C8B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NewRPG_4_22_3">
+      <UniqueIdentifier>{B9ADF674-FB01-461C-9A59-33314B2D73C9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3.Build.cs">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3.cpp">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3.h">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3Character.cpp">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3Character.h">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3GameMode.cpp">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3GameMode.h">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.cpp">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NewRPG_4_22_3\NewRPG_4_22_3PlayerController.h">
+      <Filter>Source\NewRPG_4_22_3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

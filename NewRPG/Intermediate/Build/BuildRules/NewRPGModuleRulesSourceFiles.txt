@@ -1,3 +1,0 @@
-/home/john/new_game/NewRPG/Source/NewRPG/NewRPG.Build.cs
-/home/john/new_game/NewRPG/Source/NewRPG.Target.cs
-/home/john/new_game/NewRPG/Source/NewRPGEditor.Target.cs
